@@ -26,6 +26,7 @@ class ComposerStaticInite215cc9972d1d9fb6738f62a37079947
         ),
         'A' => 
         array (
+            'App\\Kernel\\' => 11,
             'App\\' => 4,
         ),
     );
@@ -50,6 +51,10 @@ class ComposerStaticInite215cc9972d1d9fb6738f62a37079947
         'Database\\Factories\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/pint/database/factories',
+        ),
+        'App\\Kernel\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/kernel',
         ),
         'App\\' => 
         array (
