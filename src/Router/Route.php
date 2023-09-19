@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Router;
-
 class Route
 {
     public function __construct(
