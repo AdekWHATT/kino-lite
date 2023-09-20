@@ -19,6 +19,11 @@
       <path value="$PROJECT_DIR$/vendor/laravel/pint" />
     </include_path>
   </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="kinolite" id="98886ad4-f3d0-4ccf-9db8-9cecf58edf3a" name="kinolite" />
+    </servers>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />

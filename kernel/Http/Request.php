@@ -28,4 +28,9 @@ class Request
     {
         return $this->server['REQUEST_METHOD'];
     }
+
+    public function input(string $key, $default = null)
+    {
+        return $this->post[$key] ?? $this->get[$key] ?? $default;
+    }
 }

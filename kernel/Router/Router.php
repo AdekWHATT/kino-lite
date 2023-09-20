@@ -11,9 +11,11 @@ class Router
         'GET' => [],
         'POST' => []
     ];
+    //
 
     public function __construct(
-        private View $view
+        private View $view,
+        private $request
     )
     {
         $this->initRoutes();
@@ -37,6 +39,7 @@ class Router
 
 
             call_user_func([$controller, 'setView'], $this->view);
+            call_user_func([$controller, 'setRequest'], $this->request);
             call_user_func([$controller, $action]);
         } else {
             call_user_func($route->getAction());
