@@ -3,6 +3,7 @@
 namespace App\Kernel\Router;
 
 use App\Kernel\Controller\Controller;
+use App\Kernel\Http\Request;
 use App\Kernel\View\View;
 
 class Router
@@ -15,7 +16,7 @@ class Router
 
     public function __construct(
         private View $view,
-        private $request
+        private Request $request
     )
     {
         $this->initRoutes();

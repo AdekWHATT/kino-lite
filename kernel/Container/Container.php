@@ -11,7 +11,7 @@ class Container
     public readonly Request $request;
     public readonly Router $router;
 
-    public readonly View $view;
+    public readonly View $view; 
 
     public function __construct()
     {
